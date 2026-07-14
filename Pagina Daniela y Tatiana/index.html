@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Página educativa sobre emprendimiento, peligros de internet y seguridad vial." />
+  <title>Emprendimiento, peligros de internet y seguridad vial</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Barra de progreso superior -->
+  <div class="progress-bar" id="progressBar"></div>
+
+  <!-- Encabezado fijo con menú de navegación -->
+  <header class="site-header">
+    <nav class="nav-bar" aria-label="Navegación principal">
+      <a class="brand" href="#home">Enciclopedia estudiantil</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="navLinks">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="#glosario">Glosario</a></li>
+        <li><a href="#integrantes">Integrantes</a></li>
+        <li><a href="#referencias">Referencias</a></li>
+        <li><a href="#emprendimiento">Emprendimiento</a></li>
+        <li><a href="#peligros-internet">Peligros de Internet</a></li>
+        <li><a href="#seguridad-vial">Seguridad Vial</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Sección principal o portada -->
+  <main id="home">
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Grado 10 · Actividad escolar</p>
+        <h1>Emprendimiento, peligros de internet y seguridad vial</h1>
+        <p class="subtitle">Una guía educativa organizada con el contenido del documento principal, presentada con un estilo de enciclopedia moderna y lectura agradable.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#integrantes">Conocer a los integrantes</a>
+          <a class="button secondary" href="#emprendimiento">Explorar los temas</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Introducción general del proyecto -->
+    <section class="intro-section fade-in">
+      <div class="section-shell">
+        <h2>Introducción</h2>
+        <p>Esta página reúne información organizada sobre emprendimiento, peligros de internet y seguridad vial para facilitar su estudio y lectura. El contenido se presenta de forma clara, con apartados temáticos y una estructura visual inspirada en una enciclopedia moderna.</p>
+      </div>
+    </section>
+
+    <!-- Sección de glosario -->
+    <section id="glosario" class="content-section fade-in">
+      <div class="section-shell">
+        <div class="section-heading">
+          <p class="section-kicker">Términos clave</p>
+          <h2>Glosario</h2>
+        </div>
+        <div class="glossary-grid">
+          <article class="glossary-card">
+            <h3>Emprendimiento</h3>
+            <p class="glossary-definition">Es la capacidad de crear ideas, organizar recursos y desarrollar un proyecto que ofrezca un producto o servicio útil para la comunidad.</p>
+            <p class="glossary-short">Definición corta: idea que se convierte en proyecto útil.</p>
+          </article>
+          <article class="glossary-card">
+            <h3>Ruta N</h3>
+            <p class="glossary-definition">Es una entidad de innovación que apoya la creación de empresas con base tecnológica y ofrece asesorías, espacios y contactos con inversionistas.</p>
+            <p class="glossary-short">Definición corta: apoyo para emprender con tecnología.</p>
+          </article>
+          <article class="glossary-card">
+            <h3>Cámara de Comercio</h3>
+            <p class="glossary-definition">Es una entidad que ayuda a crear y fortalecer empresas mediante asesorías, cursos, ferias y programas orientados a emprendedores.</p>
+            <p class="glossary-short">Definición corta: apoyo institucional para negocios.</p>
+          </article>
+          <article class="glossary-card">
+            <h3>Parque E</h3>
+            <p class="glossary-definition">Es una organización que promueve el emprendimiento entre estudiantes y ciudadanos mediante mentorías, acompañamiento y capacitación para desarrollar proyectos.</p>
+            <p class="glossary-short">Definición corta: espacio de formación y acompañamiento.</p>
+          </article>
+          <article class="glossary-card">
+            <h3>SENA</h3>
+            <p class="glossary-definition">Es el Servicio Nacional de Aprendizaje, una entidad que capacita emprendedores y ofrece recursos para iniciar nuevos negocios.</p>
+            <p class="glossary-short">Definición corta: formación y apoyo para emprendedores.</p>
+          </article>
+          <article class="glossary-card">
+            <h3>iNNpulsa Colombia</h3>
+            <p class="glossary-definition">Es una iniciativa que apoya empresas innovadoras con programas de formación, financiación y acompañamiento para fortalecer su crecimiento.</p>
+            <p class="glossary-short">Definición corta: apoyo para negocios innovadores.</p>
+          </article>
+          <article class="glossary-card">
+            <h3>Bancóldex</h3>
+            <p class="glossary-definition">Es una entidad financiera que facilita créditos y soluciones para impulsar el crecimiento de las empresas en Colombia.</p>
+            <p class="glossary-short">Definición corta: financiamiento para emprender.</p>
+          </article>
+          <article class="glossary-card">
+            <h3>Emprendimiento tecnológico</h3>
+            <p class="glossary-definition">Es un tipo de emprendimiento que desarrolla aplicaciones, plataformas y servicios digitales para resolver necesidades actuales de las personas.</p>
+            <p class="glossary-short">Definición corta: negocio basado en tecnología.</p>
+          </article>
+          <article class="glossary-card">
+            <h3>Emprendimiento comercial</h3>
+            <p class="glossary-definition">Es un tipo de emprendimiento enfocado en la venta de productos o servicios que responden a las necesidades de los consumidores.</p>
+            <p class="glossary-short">Definición corta: negocio orientado a vender.</p>
+          </article>
+          <article class="glossary-card">
+            <h3>Emprendimiento social</h3>
+            <p class="glossary-definition">Es un tipo de emprendimiento que busca resolver problemas de la comunidad y generar un impacto positivo mientras crea valor.</p>
+            <p class="glossary-short">Definición corta: negocio con impacto social.</p>
+          </article>
+          <article class="glossary-card">
+            <h3>Fake News</h3>
+            <p class="glossary-definition">Son noticias falsas o información engañosa que se difunde por internet o redes sociales para confundir, manipular la opinión pública o conseguir visitas.</p>
+            <p class="glossary-short">Definición corta: información falsa en internet.</p>
+          </article>
+          <article class="glossary-card">
+            <h3>Big Data</h3>
+            <p class="glossary-definition">Es el análisis de grandes cantidades de datos para encontrar patrones, mejorar servicios y tomar decisiones más informadas, aunque también exige cuidado con la privacidad.</p>
+            <p class="glossary-short">Definición corta: análisis de grandes datos.</p>
+          </article>
+          <article class="glossary-card">
+            <h3>Ciberacoso</h3>
+            <p class="glossary-definition">Es el acoso que ocurre a través de internet mediante mensajes, publicaciones, imágenes o amenazas que buscan intimidar o afectar a otra persona.</p>
+            <p class="glossary-short">Definición corta: agresión por medios digitales.</p>
+          </article>
+          <article class="glossary-card">
+            <h3>Ciberdependencia</h3>
+            <p class="glossary-definition">Es la necesidad excesiva de usar internet o dispositivos electrónicos hasta el punto de afectar el estudio, el trabajo o las relaciones personales.</p>
+            <p class="glossary-short">Definición corta: uso excesivo de la tecnología.</p>
+          </article>
+          <article class="glossary-card">
+            <h3>Phubbing</h3>
+            <p class="glossary-definition">Es el comportamiento de ignorar a las personas que están presentes porque se presta más atención al teléfono celular.</p>
+            <p class="glossary-short">Definición corta: descuido por mirar el celular.</p>
+          </article>
+          <article class="glossary-card">
+            <h3>Nomofobia</h3>
+            <p class="glossary-definition">Es el miedo o ansiedad que siente una persona cuando no tiene acceso a su teléfono móvil, se queda sin batería o pierde la conexión a internet.</p>
+            <p class="glossary-short">Definición corta: ansiedad por no usar el celular.</p>
+          </article>
+          <article class="glossary-card">
+            <h3>Demarcación vial</h3>
+            <p class="glossary-definition">Son las señales y líneas en la vía que orientan el movimiento de los vehículos y permiten una circulación más segura.</p>
+            <p class="glossary-short">Definición corta: señales que ordenan la vía.</p>
+          </article>
+          <article class="glossary-card">
+            <h3>Paso peatonal</h3>
+            <p class="glossary-definition">Es la zona destinada para que los peatones crucen con mayor seguridad y los conductores deben ceder el paso.</p>
+            <p class="glossary-short">Definición corta: zona segura para cruzar.</p>
+          </article>
+          <article class="glossary-card">
+            <h3>Atropello</h3>
+            <p class="glossary-definition">Es un accidente vial en el que un vehículo impacta a un peatón y puede causar lesiones graves o incluso la muerte.</p>
+            <p class="glossary-short">Definición corta: choque de vehículo contra peatón.</p>
+          </article>
+          <article class="glossary-card">
+            <h3>Embriaguez</h3>
+            <p class="glossary-definition">Es el estado producido por consumir alcohol o sustancias psicoactivas, que reduce la capacidad de reaccionar y aumenta el riesgo de accidentes.</p>
+            <p class="glossary-short">Definición corta: estado que pone en riesgo la conducción.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de integrantes -->
+    <section id="integrantes" class="content-section fade-in">
+      <div class="section-shell">
+        <div class="section-heading">
+          <p class="section-kicker">Información del equipo</p>
+          <h2>Integrantes</h2>
+        </div>
+        <div class="profile-grid">
+          <article class="profile-card">
+            <div class="profile-identity daniela">
+              <span class="profile-name">Daniela</span>
+              <span class="profile-surname">Perea</span>
+            </div>
+            <p class="role">Integrante 1</p>
+            <p>Estudiante del grupo encargado de presentar esta actividad escolar.</p>
+          </article>
+          <article class="profile-card">
+            <div class="profile-identity tatiana">
+              <span class="profile-name">Tatiana</span>
+              <span class="profile-surname">Carvajal</span>
+            </div>
+            <p class="role">Integrante 2</p>
+            <p>Estudiante del grupo encargado de presentar esta actividad escolar.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de referencias -->
+    <section id="referencias" class="content-section fade-in">
+      <div class="section-shell">
+        <div class="section-heading">
+          <p class="section-kicker">Fuentes consultadas</p>
+          <h2>Referencias</h2>
+        </div>
+        <div class="reference-card">
+          <ul class="references-list">
+            <li><strong>Bancóldex.</strong> (s. f.). <a href="https://www.bancoldex.com" target="_blank" rel="noopener noreferrer">https://www.bancoldex.com</a></li>
+            <li><strong>Cámara de Comercio de Medellín para Antioquia.</strong> (s. f.). <a href="https://www.camaramedellin.com.co" target="_blank" rel="noopener noreferrer">https://www.camaramedellin.com.co</a></li>
+            <li><strong>iNNpulsa Colombia.</strong> (s. f.). <a href="https://www.innpulsacolombia.com" target="_blank" rel="noopener noreferrer">https://www.innpulsacolombia.com</a></li>
+            <li><strong>Parque E.</strong> (s. f.). <a href="https://parquee.medellin.unal.edu.co" target="_blank" rel="noopener noreferrer">https://parquee.medellin.unal.edu.co</a></li>
+            <li><strong>Ruta N.</strong> (s. f.). <a href="https://www.rutanmedellin.org" target="_blank" rel="noopener noreferrer">https://www.rutanmedellin.org</a></li>
+            <li><strong>Servicio Nacional de Aprendizaje (SENA).</strong> (s. f.). <a href="https://www.sena.edu.co" target="_blank" rel="noopener noreferrer">https://www.sena.edu.co</a></li>
+            <li><strong>Ministerio de Tecnologías de la Información y las Comunicaciones.</strong> (s. f.). <a href="https://www.mintic.gov.co" target="_blank" rel="noopener noreferrer">https://www.mintic.gov.co</a></li>
+            <li><strong>Agencia Nacional de Seguridad Vial.</strong> (s. f.). <a href="https://ansv.gov.co" target="_blank" rel="noopener noreferrer">https://ansv.gov.co</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de emprendimiento -->
+    <section id="emprendimiento" class="content-section fade-in">
+      <div class="section-shell">
+        <div class="section-heading">
+          <p class="section-kicker">Tema 1</p>
+          <h2>Emprendimiento</h2>
+        </div>
+        <div class="topic-grid">
+          <article class="topic-card">
+            <h3>Entidades que favorecen el emprendimiento en Medellín</h3>
+            <p><strong>Ruta N:</strong> Es un centro de innovación que ayuda a crear empresas con base tecnológica. Ofrece asesorías, capacitaciones, espacios de trabajo y contacto con inversionistas.</p>
+            <p><strong>Cámara de Comercio de Medellín para Antioquia:</strong> Brinda apoyo para crear y fortalecer empresas mediante asesorías, cursos, ferias y programas para emprendedores.</p>
+            <p><strong>Parque E:</strong> Promueve el emprendimiento entre estudiantes y ciudadanos, ofreciendo mentorías, acompañamiento y capacitación para desarrollar proyectos.</p>
+            <div class="image-row">
+              <img src="img/image2.jpeg" alt="Ilustración de emprendimiento en Medellín" />
+              <img src="img/image3.jpeg" alt="Ilustración de apoyo al emprendimiento" />
+            </div>
+            <div class="info-box">
+              <h4>Caja informativa</h4>
+              <p>Estas entidades fortalecen el emprendimiento al ofrecer recursos, acompañamiento y oportunidades de conexión.</p>
+            </div>
+          </article>
+
+          <article class="topic-card">
+            <h3>Entidades que favorecen el emprendimiento en Colombia</h3>
+            <p><strong>SENA:</strong> Capacita a los emprendedores y, por medio del Fondo Emprender, ofrece recursos para iniciar nuevos negocios.</p>
+            <p><strong>iNNpulsa Colombia:</strong> Apoya empresas innovadoras con programas de formación, financiación y acompañamiento.</p>
+            <p><strong>Bancóldex:</strong> Facilita créditos y soluciones financieras para impulsar el crecimiento de las empresas.</p>
+            <div class="image-row">
+              <img src="img/image4.jpeg" alt="Ilustración de apoyo emprendedor en Colombia" />
+              <img src="img/image5.jpeg" alt="Ilustración de financiamiento para emprendimientos" />
+            </div>
+            <div class="info-box">
+              <h4>Caja informativa</h4>
+              <p>El emprendimiento en Colombia se apoya con formación, financiación y acompañamiento institucional.</p>
+            </div>
+          </article>
+
+          <article class="topic-card">
+            <h3>Tipos de emprendimiento más requeridos en Colombia</h3>
+            <p><strong>Tecnológico:</strong> Desarrolla aplicaciones, plataformas y servicios digitales. Es uno de los más solicitados porque la tecnología hace parte de la vida diaria.</p>
+            <p><strong>Comercial:</strong> Se enfoca en la venta de productos o servicios. Es muy común porque responde a las necesidades de los consumidores.</p>
+            <p><strong>Social:</strong> Busca resolver problemas de la comunidad mientras genera un impacto positivo. Ha crecido por el interés en el desarrollo sostenible.</p>
+            <div class="image-row">
+              <img src="img/image6.jpeg" alt="Ilustración de emprendimiento tecnológico" />
+              <img src="img/image7.jpeg" alt="Ilustración de emprendimiento social" />
+            </div>
+            <div class="info-box">
+              <h4>Caja informativa</h4>
+              <p>Los emprendimientos más requeridos se relacionan con la tecnología, el comercio y la solución de problemas sociales.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de peligros de internet -->
+    <section id="peligros-internet" class="content-section fade-in">
+      <div class="section-shell">
+        <div class="section-heading">
+          <p class="section-kicker">Tema 2</p>
+          <h2>Peligros de Internet</h2>
+        </div>
+        <div class="danger-grid">
+          <article class="danger-card">
+            <h3>Fake News</h3>
+            <p>Las Fake News son noticias falsas o información engañosa que se difunde principalmente por redes sociales o internet para confundir, manipular la opinión pública o conseguir más visitas.</p>
+            <div class="image-row">
+              <img src="img/image8.jpeg" alt="Ilustración de Fake News" />
+              <img src="img/image9.jpeg" alt="Ilustración de desinformación" />
+            </div>
+            <div class="info-box">
+              <h4>Dato importante</h4>
+              <p>Las Fake News pueden afectar la percepción de la realidad y la toma de decisiones.</p>
+            </div>
+          </article>
+
+          <article class="danger-card">
+            <h3>Big Data</h3>
+            <p>El Big Data es el análisis de grandes cantidades de datos. Puede mejorar servicios y facilitar la toma de decisiones, aunque también puede afectar la privacidad si la información no se maneja correctamente. En la educación permite conocer el rendimiento de los estudiantes y mejorar los procesos de aprendizaje.</p>
+            <div class="image-row">
+              <img src="img/image10.jpeg" alt="Ilustración de Big Data" />
+              <img src="img/image11.jpeg" alt="Ilustración de análisis de datos" />
+            </div>
+            <div class="info-box">
+              <h4>Dato importante</h4>
+              <p>El Big Data aporta beneficios, pero requiere un manejo responsable de la información.</p>
+            </div>
+          </article>
+
+          <article class="danger-card">
+            <h3>Ciberacoso</h3>
+            <p>Es el acoso que ocurre a través de internet mediante mensajes, publicaciones, imágenes o amenazas que buscan intimidar o afectar a otra persona.</p>
+            <div class="image-row">
+              <img src="img/image12.jpeg" alt="Ilustración de ciberacoso" />
+              <img src="img/image13.jpeg" alt="Ilustración de mensajes hostiles" />
+            </div>
+            <div class="info-box">
+              <h4>Dato importante</h4>
+              <p>El ciberacoso puede generar daño emocional y afectar la salud mental.</p>
+            </div>
+          </article>
+
+          <article class="danger-card">
+            <h3>Ciberdependencia</h3>
+            <p>Es la necesidad excesiva de usar internet o dispositivos electrónicos, hasta el punto de afectar el estudio, el trabajo o las relaciones personales.</p>
+            <div class="image-row">
+              <img src="img/image14.jpeg" alt="Ilustración de ciberdependencia" />
+              <img src="img/image15.jpeg" alt="Ilustración de uso excesivo de tecnología" />
+            </div>
+            <div class="info-box">
+              <h4>Dato importante</h4>
+              <p>La ciberdependencia puede alterar el equilibrio entre la vida digital y la vida cotidiana.</p>
+            </div>
+          </article>
+
+          <article class="danger-card">
+            <h3>Phubbing</h3>
+            <p>Es el comportamiento de ignorar a quienes están presentes por prestar más atención al teléfono celular.</p>
+            <div class="image-row">
+              <img src="img/image16.jpeg" alt="Ilustración de phubbing" />
+              <img src="img/image17.jpeg" alt="Ilustración de personas con teléfonos" />
+            </div>
+            <div class="info-box">
+              <h4>Dato importante</h4>
+              <p>El phubbing afecta la calidad de la interacción entre personas.</p>
+            </div>
+          </article>
+
+          <article class="danger-card">
+            <h3>Nomofobia</h3>
+            <p>Es el miedo o ansiedad que siente una persona cuando no tiene acceso a su teléfono móvil, se queda sin batería o pierde la conexión a internet.</p>
+            <div class="image-row">
+              <img src="img/image18.jpeg" alt="Ilustración de nomofobia" />
+              <img src="img/image19.jpeg" alt="Ilustración de ansiedad por tecnología" />
+            </div>
+            <div class="info-box">
+              <h4>Dato importante</h4>
+              <p>La nomofobia demuestra cómo la tecnología puede influir en el estado emocional.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de seguridad vial -->
+    <section id="seguridad-vial" class="content-section fade-in">
+      <div class="section-shell">
+        <div class="section-heading">
+          <p class="section-kicker">Tema 3</p>
+          <h2>Seguridad Vial</h2>
+        </div>
+        <div class="security-grid">
+          <article class="security-card">
+            <h3>Precauciones</h3>
+            <ul>
+              <li>Respetar las normas y señales de tránsito.</li>
+              <li>Conducir dentro de los límites de velocidad.</li>
+              <li>Revisar el estado mecánico del vehículo antes de iniciar el recorrido.</li>
+              <li>Evitar el uso del celular mientras conduce.</li>
+              <li>Descansar adecuadamente y mantener siempre la atención en la vía.</li>
+            </ul>
+          </article>
+
+          <article class="security-card">
+            <h3>Demarcaciones</h3>
+            <ul>
+              <li>Línea continua: Indica que no se debe adelantar ni cambiar de carril.</li>
+              <li>Línea discontinua: Permite adelantar cuando las condiciones sean seguras.</li>
+              <li>Paso peatonal: Zona destinada para el cruce seguro de peatones.</li>
+              <li>Flechas y símbolos: Orientan la dirección que deben seguir los vehículos.</li>
+            </ul>
+          </article>
+
+          <article class="security-card">
+            <h3>Clases de accidentes</h3>
+            <ul>
+              <li>Choque: Colisión entre dos o más vehículos.</li>
+              <li>Atropello: Accidente en el que un vehículo impacta a un peatón.</li>
+              <li>Volcamiento: Ocurre cuando un vehículo pierde el equilibrio y se vuelca.</li>
+              <li>Caída de ocupante: Se presenta cuando un pasajero cae del vehículo durante el recorrido.</li>
+            </ul>
+          </article>
+
+          <article class="security-card">
+            <h3>Causas</h3>
+            <ul>
+              <li>Exceso de velocidad.</li>
+              <li>Distracción por el uso del celular.</li>
+              <li>Conducir bajo los efectos del alcohol o sustancias psicoactivas.</li>
+              <li>No respetar las señales de tránsito.</li>
+              <li>Fallas mecánicas o mal estado de las vías.</li>
+            </ul>
+          </article>
+        </div>
+
+        <article class="table-card fade-in">
+          <h3>Tabla comparativa de sanciones</h3>
+          <table>
+            <thead>
+              <tr>
+                <th>Tipo de accidente</th>
+                <th>Sanción</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Choque con daños materiales</td>
+                <td>Multa y pago de los daños ocasionados</td>
+              </tr>
+              <tr>
+                <td>Atropello con lesiones</td>
+                <td>Multa, suspensión de la licencia y posible proceso judicial</td>
+              </tr>
+              <tr>
+                <td>Accidente por conducir en estado de embriaguez</td>
+                <td>Multa elevada, inmovilización del vehículo y suspensión o cancelación de la licencia</td>
+              </tr>
+              <tr>
+                <td>Accidente con víctimas fatales</td>
+                <td>Proceso penal, indemnizaciones y otras sanciones establecidas por la ley</td>
+              </tr>
+            </tbody>
+          </table>
+        </article>
+
+        <article class="poster-card fade-in">
+          <h3>Afiche</h3>
+          <img src="img/image20.jpeg" alt="Afiche de seguridad vial" />
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <!-- Botón para volver arriba -->
+  <button class="back-to-top" id="backToTop" aria-label="Volver arriba">↑</button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
